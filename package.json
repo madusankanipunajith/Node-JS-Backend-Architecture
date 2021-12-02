@@ -1,0 +1,27 @@
+{
+  "name": "node-js-backend-architecture",
+  "version": "1.0.0",
+  "description": "reusable backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madusankanipunajith/Node-JS-Backend-Architecture.git"
+  },
+  "author": "madusanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madusankanipunajith/Node-JS-Backend-Architecture/issues"
+  },
+  "homepage": "https://github.com/madusankanipunajith/Node-JS-Backend-Architecture#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15"
+  }
+}
