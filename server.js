@@ -12,6 +12,7 @@ const app = express();
 app.use(express.json());  // allow to get data from json body
 
 app.use('/api/auth', require('./routes/auth')); // map the auth route from the server
+app.use('/api/private', require('./routes/private'));
 
 app.use(errorHandler); // should be last peice of middleware
 
